@@ -1,2 +1,7 @@
-# Data_BoostedTree_Test
-Edit edit 
+This analysis demonstrated the development and evaluation of a Boosted Tree model for classifying pregnancy risk. Starting with a Benchmark Logistic Regression model, the data were confirmed to possess the potential for predictive accuracy. Dimentionaility reducing and weight penalization methods were tested on the LR model, and the data were found to be low-variance/high-bias, and so a model was chosen accordingly. The transition to decision tree and boosted tree models highlighted the complexity of the dataset, with the tuned boosted tree achieving a cross validated accuracy of 85.81%. Cross-validation underscored the variability in the dataset, while a confusion matrix revealed meaningful insights into misclassifications and their practical implications. The study also identified “Blood Glucose” as the most significant predictor, aligning with existing literature on the role of diabetes in high-risk pregnancies. These findings suggest that further refinement of the model, such as continuing to fine tune hyperparameters, and placing an emphasis on managing blood sugar could enhance clinical decision-making and improve outcomes in maternal health.
+
+NOTE The write-up in this repository is a draft.
+
+Scikit Learn was used for the entire project. Seaborn was used to visualize a confusion matrix.
+
+This project was submitted as the final assignment for "Introduction to Statistical Learning." (MATH-457).
